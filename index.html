@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="developer" content="Nazmus Sadat">
+  <link rel="stylesheet" href="style.css">
+  <title>Rock-Paper-Scissor</title>
+</head>
+<body>
+  <header>
+    <h2 class="gameTitle">Rock Paper Scissor</h2>
+  </header>
+  <!-- main game area -->
+ <div class="main">
+  <div class="score_area">
+    
+    <!-- user score -->
+    <div class="score" id="user_score"> User: 0</div>
+    
+    <!-- bot score -->
+    <div class="score" id="bot_score">Bot: 0</div>
+  </div>
+  
+  <!-- show the hands -->
+  <div class="window_section">
+   <div class="user_part fistHand">
+     <img src="" id="user">
+   </div>
+   
+   <div class="random_part fistHand">
+     <img src="" id="randomHand" class="randomHand">
+   </div>
+  </div>
+  
+  <!-- win, lose or tie message -->
+  <div id="dataWindow"></div>
+  
+ <div class="user_control">
+   <button class="control" id="fist"><img src="assets/fist.svg"></button>
+   <button class="control" id="open"><img src="assets/open.svg"></button>
+   <button class="control" id="scissor"><img src="assets/scissor.svg"></button>
+ </div>
+ </div>
+ 
+ <footer>
+   <p class="copyRight"></p>
+ </footer>
+ 
+ <script src="main.js"></script>
+</body>
+</html>
