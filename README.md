@@ -19,5 +19,5 @@ The game is very simple to play. Select a hand between this three hands and tap,
 ### Option 2: Clone
 Follow the command and copy paste on your bash. 
 ``` 
-git clone 
+git clone https://github.com/nazmus-sadat9/Rock-Paper-scissor.git
 ```
